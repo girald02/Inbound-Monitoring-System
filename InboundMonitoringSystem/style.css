@@ -1,0 +1,158 @@
+label#suppTitle {
+    position: absolute;
+    top: -22px;
+}
+.deleteFORM a:hover {
+    text-decoration: none;
+}
+.fa-edit:before {
+    content: "\f044";
+    color: white!important;
+}
+.fa-trash:before {
+    content: "\f1f8";
+    color: white!important;
+}
+.report-table td{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 1px 5px 1px 5px;
+}
+img#company-logo {
+    max-width: 150px;
+}
+span.r-head {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+span.r-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+span.r-title{
+    font-size: 23px;
+    font-weight: 200;
+}
+span.r-posi {
+    position: relative;
+    top: -19px;
+    left: 43px;
+    font-style: italic;
+}
+#d-icon {
+    color: #486edb;
+}
+.d-logo {
+    margin-top: 20px;
+}
+.sidebar-toggled ul#accordionSidebar img {
+    max-width: 84px;
+    margin-bottom: -53px;
+}
+p#foot-name {
+    margin-top: -14px;
+}
+p#space-foot {
+    color: white;
+}
+tr#table-foot-dark {
+    background: #5a5c69;
+    color: white;
+}
+th#italic {
+    font-style: italic;
+}
+/*b#underlineDate:after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    margin: 0 auto;
+    left: -49%;
+    right: 0;
+    top: 21px;
+    width: 50%;
+    background: black;
+}
+#underlineSupp:after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    margin: 0 auto;
+    left: -49%;
+    right: 0;
+    top: 63px;
+    width: 50%;
+    background: black;
+}*/
+
+b#underlineDate {
+    text-decoration: underline;
+}
+b#underlineSupp {
+    text-decoration: underline;
+}
+div#headAck p {
+    line-height: 7px;
+}
+div#headAck img {
+    margin-bottom: 14px;
+    max-width: 150px;
+}
+th#ackHead {
+    font-size: 12px;
+    font-style: italic;
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+}
+.footer-talble {
+    line-height: 7px;
+}
+.col.level {
+    margin-top: -22px;
+}
+
+th#rimHead {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*REPORT EXPORT SUMMARY CSS*/
+body#res {
+    font-size: 12px;
+}
+div#redBorder {
+    border: solid black 1px;
+    padding: 0px 0px 20px 0px;
+}
+.footer-talble {
+    padding-left: 13px;
+}
+#redBorder table.table.table-bordered.report-table td {
+    border: solid 1px black;
+    text-align: center;
+}
+
+/*REPORT RECEIVING SUMMARY CSS*/
+#rrd table.table.table-bordered.report-table th {
+    font-size: 12px;
+}

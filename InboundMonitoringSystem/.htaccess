@@ -1,0 +1,7 @@
+ErrorDocument 404 http://localhost/Inboundmonitoringsystem/404.php
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ <YourRelativePathToPHPFile>/404.php [L]
